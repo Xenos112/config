@@ -1,0 +1,53 @@
+@import url("file:///usr/share/fonts/TTF/FiraCodeNerdFont-Regular.ttf");
+
+* {
+  font-family: "Fira Code Nerd Font", sans-serif;
+  font-size: 14px;
+  icon-theme: "Papirus-Dark";
+}
+
+window {
+  margin: 0px;
+  border: 2px solid #3e8fb0;
+  border-radius: 15px;
+  background-color: rgba(25, 23, 36, 0.92);
+  backdrop-filter: blur(12px);
+  /* Modern blur */
+}
+
+#input {
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid #3e8fb0;
+  border-radius: 8px;
+  color: #e0def4;
+  background-color: rgba(31, 29, 46, 0.9);
+}
+
+#inner-box {
+  margin: 5px;
+  border-radius: 8px;
+}
+
+#entry {
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #e0def4;
+}
+
+#entry:selected {
+  background-color: #3e8fb0;
+  border: none;
+  outline: none;
+}
+
+#entry image {
+  margin-right: 12px;
+  padding-left: 8px;
+  -gtk-icon-size: 24px;
+}
+
+#text {
+  color: #e0def4;
+  margin: 2px 8px;
+}

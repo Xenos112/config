@@ -1,0 +1,19 @@
+# ~/.config/wofi/config
+
+width = 600
+height = 350
+prompt = Search...
+show_all = true
+insensitive = true
+allow_markup = true
+allow_images = true
+no_actions = true
+halign = fill
+content_halign = fill
+dynamic_lines = true
+
+# Blur configuration (requires compositor like sway/wlroots)
+exec_always wf-recorder -f /tmp/wofi-bg.mp4 > /dev/null
+blur_radius = 5
+blur_type = kawase
+blur_strength = 4
